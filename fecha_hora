@@ -1,0 +1,7 @@
+import datetime #llamo la librería
+
+fecha_y_hora = datetime.datetime.now() #capturo la fecha y hora actual
+fecha_y_hora_2 = datetime.datetime.strftime(fecha_y_hora, '%H:%M:%S %d/%m/%Y') 
+    #almaceno la hora y fecha en nuevo formato h:min:seg dia:mes:año
+
+print(fecha_y_hora_2)
