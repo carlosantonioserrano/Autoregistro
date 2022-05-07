@@ -5,3 +5,11 @@ fecha_y_hora_2 = datetime.datetime.strftime(fecha_y_hora, '%H:%M:%S %d/%m/%Y')
     #almaceno la hora y fecha en nuevo formato h:min:seg dia:mes:año
 
 print(fecha_y_hora_2)
+
+# para extraer solo la fecha
+solo_fecha = datetime.datetime.strftime(fecha_y_hora, '%d/%m/%Y')
+print(solo_fecha)
+
+# para extraer solo la hora
+solo_hora = datetime.datetime.strftime(fecha_y_hora, '%H:%M:%S')
+print(solo_hora)
