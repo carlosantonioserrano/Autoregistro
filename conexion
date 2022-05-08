@@ -7,7 +7,7 @@ import mysql.connector
 # Iniciamos un try
 try:
     #creamos la variable conexion de mysql
-    conexion = mysql.connector.connect(user='root', password='Pass123', host='localhost', database='empresa', port='3306')
+    conn = mysql.connector.connect(user='root', password='Pass123', host='localhost', database='empresa', port='3306')
     
     #print(conexion)
     # al digitar en la consola >python conexion.py me debe de salir un msj similar a "Connection objet at..."
@@ -19,4 +19,4 @@ else:
     print('CONEXION A LA BDD SATISFACTORIA')
 
 #cerramos la conexion
-conexion.close()
+conn.close()
