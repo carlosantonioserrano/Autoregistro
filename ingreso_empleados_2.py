@@ -33,3 +33,6 @@ cursor.execute(sql, cadena)
 conexion.commit()
 
 print('Se ha creado un nuevo registro.')
+
+cursor.close()
+conexion.close()
