@@ -21,6 +21,7 @@ sql = "INSERT INTO empleados(nombres, apellidos, dui) VALUES('Will', 'Smith', '0
 # ejecutamos la query
 cursor.execute(sql)
 
+# actualizamos la BDD
 conexion.commit()
 
 # cerramos la conexion
