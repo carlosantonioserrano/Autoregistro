@@ -7,7 +7,7 @@ import mysql.connector
 # Iniciamos un try
 try:
     #creamos la variable conexion de mysql
-    conn = mysql.connector.connect(user='root', password='Pass123', host='localhost', database='empresa', port='3306')
+    conn = mysql.connector.connect(user='root', password='', host='localhost', database='', port='')
     
     #print(conexion)
     # al digitar en la consola >python conexion.py me debe de salir un msj similar a "Connection objet at..."
