@@ -4,7 +4,7 @@ import mysql.connector
 # Iniciamos un try
 try:
     #creamos la variable conexion de mysql
-    conexion = mysql.connector.connect(user='root', password='Pass123', host='localhost', database='empresa', port='3306')
+    conexion = mysql.connector.connect(user='root', password='', host='localhost', database='', port='3306')
 
 except Exception as err:
     print('ERROR al conectar a la base de datos')
