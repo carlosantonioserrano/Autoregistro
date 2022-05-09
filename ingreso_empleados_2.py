@@ -15,7 +15,7 @@ solo_fecha = datetime.datetime.strftime(fecha_y_hora, '%Y-%m-%d')
 solo_hora = datetime.datetime.strftime(fecha_y_hora, '%H:%M:%S')
 
 try:
-    conexion = mysql.connector.connect(user='root', password='Pass123', host='localhost', database='empresa', port='3306')
+    conexion = mysql.connector.connect(user='root', password='', host='localhost', database='', port='')
 
 except Exception as err:
     print('ERROR al conectar a la base de datos')
