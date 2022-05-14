@@ -37,9 +37,6 @@ with detector.FaceDetection(min_detection_confidence = 0.75) as rostros:
             for rostro in resultado.detections: # si encuentra rostros en los resultados...
                 dibujo.draw_detection(frame, rostro, dibujo.DrawingSpec(color=(255,0,0))) #le entregamos la ventana frame
 
-
-
-
         # mostramos los fotogramas
         cv2.imshow("Presione la tecla ESC para tomar la foto", frame)
 
