@@ -45,5 +45,5 @@ with detector.FaceDetection(min_detection_confidence = 0.75) as rostros:
         if t == 27: # leo el código ASCII teclado
             break
 
-cap.release()
-cv2.destroyAllWindows()
+cap.release() # borramos la videocapturas
+cv2.destroyAllWindows() # cerramos todas las ventanas
