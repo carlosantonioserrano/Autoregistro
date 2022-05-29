@@ -25,15 +25,9 @@ txtNum1=Entry(vent,bg="pink")
 lblNum1.grid(row=0,column=0,padx=6, pady=6, sticky="w",ipady=6)
 txtNum1.grid(row=0,column=1,padx=6, pady=6)
 
-lblNum2 = Label(vent,text="Ingrese un Texto: ",bg="yellow")
-txtNum2=Entry(vent,bg="pink")
-lblNum2.grid(row=1,column=0,padx=6, pady=6, sticky="w",ipady=6)
-txtNum2.grid(row=1,column=1,padx=6, pady=6)
 
 btn1=Button(vent,text="Validar", command=valida_numero)
 btn1.grid(row=0,column=2,padx=6, pady=6, ipady=2, ipadx=10)
-
-#btn2=Button(vent,text="Validar", command=valida_texto)
 
 
 vent.mainloop()
